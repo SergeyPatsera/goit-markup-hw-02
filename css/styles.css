@@ -140,6 +140,7 @@
 /*HERO*/
 .hero-group {
     background-color: var(--dark-bg-cl);
+
 }
 
 .hero-title {
@@ -181,6 +182,7 @@
     font-weight: 700;
     line-height: calc(16/14);
     text-transform: uppercase;
+    font-size: 14px;
 }
 .feature-item {
     list-style:none;
@@ -244,12 +246,16 @@
 .portfolio-list {
     list-style: none;
 }
+.portfolio-link {
+    text-decoration: none;
+ }
 
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+ 
 }
 
 .portfolio-text {
